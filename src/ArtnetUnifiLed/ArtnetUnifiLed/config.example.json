@@ -1,0 +1,10 @@
+﻿{
+    "Universe": 1,
+    "Devices": [
+        {
+            "Host": "192.168.178.12",
+            "Username": "root",
+            "Password": "secret"
+        }
+    ]
+}
