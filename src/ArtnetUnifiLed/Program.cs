@@ -52,6 +52,7 @@ namespace ArtnetUnifiLed
                     if (!client.IsConnected)
                     {
                         client.Connect();
+                        Console.WriteLine($"Connected to {client.ConnectionInfo.Host}");
                     }
                 }
                 Thread.Sleep(10000);
