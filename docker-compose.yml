@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  app:
+    image: artnet-unifi-led
+    build: .
+    volumes:
+      - "./src/ArtnetUnifiLed/config.json:/app/config.json"
+    ports:
+      - "6454:6454/udp"
