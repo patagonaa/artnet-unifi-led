@@ -76,6 +76,8 @@ namespace ArtnetUnifiLed
                 return;
             }
 
+            Console.WriteLine("Got new ArtNet Packet");
+
             _lastFrame = dmxPacket.DmxData;
 
             for (int i = 0; i < _sshClients.Count; i++)
